@@ -96,13 +96,14 @@ export const Recuperar = ({ onSubmit }) => {
                                             style={{
                                                 backgroundColor: colors.cream,
                                                 borderColor: colors.sand,
+                                                color: '#0f172a',
                                             }}
-                                            id="recuperarEmail"
-                                            placeholder="tucorreo@ejemplo.com"
-                                            autoComplete="email"
-                                            value={email}
-                                            onChange={(e) => setEmail(e.target.value)}
-                                            required
+                                        id="recuperarEmail"
+                                        placeholder="tucorreo@ejemplo.com"
+                                        autoComplete="email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                        required
                                         />
                                     </div>
 

@@ -7,7 +7,7 @@ const colors = {
   ink: '#0f172a',
   card: '#1e293b',
   border: '#334155',
-  muted: '#94a3b8',
+  muted: '#cbd5e1',
 };
 
 const serif = {
@@ -16,7 +16,7 @@ const serif = {
 };
 
 const statusColors = {
-  Alive: '#16a34a',
+  Alive: '#0a3418',
   Dead: '#dc2626',
   unknown: '#64748b',
 };
@@ -146,7 +146,7 @@ export const Rickandmorty = () => {
             />
 
             <div style={{ padding: '12px', textAlign: 'center' }}>
-              <h3
+              <h2
                 title={character.name}
                 style={{
                   margin: '0 0 4px 0',
@@ -157,7 +157,7 @@ export const Rickandmorty = () => {
                 }}
               >
                 {character.name}
-              </h3>
+              </h2>
 
               <p style={{ margin: '0 0 10px 0', fontSize: '0.85rem', color: colors.muted }}>
                 {character.species}

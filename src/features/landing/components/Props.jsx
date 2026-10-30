@@ -63,7 +63,7 @@ function TeamCard({ person, role, description }) {
 
       <p
         style={{
-          color: '#64748b',
+          color: '#212427',
           fontSize: '14px',
           lineHeight: '1.7',
           margin: 0
@@ -120,7 +120,7 @@ export default function Profile() {
       >
         <span
           style={{
-            color: '#087bff',
+            color: '#1c4675',
             fontWeight: 'bold',
             fontSize: '13px',
             letterSpacing: '2px'
@@ -141,7 +141,7 @@ export default function Profile() {
 
         <p
           style={{
-            color: '#64748b',
+            color: '#181b20',
             fontSize: '16px',
             lineHeight: '1.7'
           }}
