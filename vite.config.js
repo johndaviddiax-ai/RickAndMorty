@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/RickAndMorty/',
   plugins: [
     react(),
     VitePWA({
@@ -13,27 +14,27 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg}']
       },
 
-      includeAssets: ['favicon.svg', 'icons.svg'],
+      includeAssets: [],
 
       manifest: {
         name: 'Mi primer PWA',
         short_name: 'MyPWA',
         description: 'PWA fantastica',
-        scope: '/',
-        start_url: '/',
+        scope: '/RickAndMorty/',
+        start_url: '/RickAndMorty/',
         display: 'standalone',
         theme_color: '#000000',
         background_color: '#ffffff',
 
         screenshots: [
           {
-            src: '/carro_rojo.png',
+            src: 'carro_rojo.png',
             sizes: '640x640',
             type: 'image/png',
             form_factor: 'narrow'
           },
           {
-            src: '/carro_rojo.png',
+            src: 'carro_rojo.png',
             sizes: '640x640',
             type: 'image/png',
             form_factor: 'wide'
@@ -42,12 +43,12 @@ export default defineConfig({
 
         icons: [
           {
-            src: '/carro192x192.png',
+            src: 'carro192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/carro512x512.png',
+            src: 'carro512x512.png',
             sizes: '512x512',
             type: 'image/png'
           }

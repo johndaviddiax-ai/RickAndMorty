@@ -108,9 +108,9 @@ export const Footer = () => {
                 Inicio
               </Link>
 
-              <Link to="/celulares" style={styles.link}>
+              <a href={`${import.meta.env.BASE_URL}#productos`} style={styles.link}>
                 Celulares
-              </Link>
+              </a>
 
               <Link to="/Props" style={styles.link}>
                 Nosotros
@@ -127,11 +127,11 @@ export const Footer = () => {
             <h3 style={styles.heading}>Atención al cliente</h3>
 
             <div style={styles.list}>
-              <a href="/#productos" style={styles.link}>
+              <a href={`${import.meta.env.BASE_URL}#productos`} style={styles.link}>
                 Productos destacados
               </a>
 
-              <a href="/#productos" style={styles.link}>
+              <a href={`${import.meta.env.BASE_URL}#productos`} style={styles.link}>
                 Ofertas
               </a>
 

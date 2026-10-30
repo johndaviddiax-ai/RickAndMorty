@@ -112,14 +112,14 @@ export const Header = () => {
                     {categories.map((cat) => (
                       <a
                         className="menu-item"
-                        href="/#productos"
+                        href={`${import.meta.env.BASE_URL}#productos`}
                         key={cat}
                       >
                         {cat}
                       </a>
                     ))}
                     <hr className="menu-divider" />
-                    <a className="menu-item" href="/#productos">
+                    <a className="menu-item" href={`${import.meta.env.BASE_URL}#productos`}>
                       Ver todo
                     </a>
                   </div>
